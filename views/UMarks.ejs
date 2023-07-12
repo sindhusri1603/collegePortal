@@ -1,0 +1,21 @@
+<%- include('partial/theader'); -%>
+<div class="umark">
+  <form action="UMarks" method="post">
+    <input type="number" name="year" placeholder="Enter year of Join" autocomplete="off">
+    <br>
+    <input type="text" name="dept" placeholder="Enter department" autocomplete="off">
+    <br>
+    <input type="text" name="section" placeholder="Enter section" autocomplete="off">
+    <br>
+    <input list="Model" name="model" id="year" placeholder="Enter Model">
+    <datalist id="Model">
+        <option value="I">
+        <option value="II">
+        <option value="III">
+      </datalist>
+      <br>
+    <button>Submit</button>
+</form>
+</div>
+</body>
+</html>

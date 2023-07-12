@@ -1,0 +1,32 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.frm,.login{
+    width:35%;
+    height: 550px;
+    background-color: rgb(256,256,256,0.4);
+    border-radius: 20px;
+    margin-left: 35%;
+    margin-top: 7%;
+
+}
+.frm input,.login input{
+    width: 80%;
+    margin-left: 10%;
+    padding: 5px;
+    margin-top: 8%;
+    border-radius: 20px;
+}
+.frm button,.login button{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    padding: 2px;
+    border-radius: 20px;
+}
+.login{
+    margin-top: 13%;
+    height: 270px;
+}

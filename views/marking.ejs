@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="h1" >
+            <h2 style="text-align: center;font-size: 40px;">Standford's Institute of Technology.</h2>
+            <h4 style="margin-left:10%">Dept:<%= dept %></h4>
+            <h4  style="margin-left:10%">Year Join:<%= yjoin %></h4>
+            <h4></h4>
+        </div>
+    </header>
+    <div class="table" style="margin-left: 25%;">
+        <table class="disp" border="10px solid black"  >
+        <thead style="background-color:  #97DEFF;;">
+            <td>Register NO</td>        
+            <td>Name</td>
+            <td>CI</td>
+            <td>BD</td>
+            <td>OOAD</td>
+            <td>CG</td>
+            <td>ST</td>
+        </thead>
+        <tbody>
+            <%  emp.forEach(element => { %>
+
+                <tr>
+                    <td><%= element.nme %></td>
+                    <td><%= element.snme %></td>
+                    <td><%= parseInt((parseInt(element.I.s1)+parseInt(element.II.s1)+parseInt(element.III.s1))/15) %></td>
+                    <td><%= parseInt((parseInt(element.I.s2)+parseInt(element.II.s2)+parseInt(element.III.s2))/15) %></td>
+                    <td><%= parseInt((parseInt(element.I.s3)+parseInt(element.II.s3)+parseInt(element.III.s3))/15) %></td>
+                    <td><%= parseInt((parseInt(element.I.s4)+parseInt(element.II.s4)+parseInt(element.III.s4))/15) %></td>
+                    <td><%= parseInt((parseInt(element.I.s5)+parseInt(element.II.s5)+parseInt(element.III.s5))/15) %></td>
+                </tr>
+            <% }) %>
+            </tbody>
+        </table>
+    </div>
+    </html>

@@ -1,0 +1,19 @@
+<%- include('partial/header'); -%>
+<ul class="message">
+    <%  emp.forEach(element => { %>
+        <% if((element.who).toString()=="student".toString()){ %>
+            <li style="background-color: #BA90C6;margin-left: -1%;">
+                <h1>"<%= element.mess %>"</h1>
+                <p>by <%= element.nme %> on <%= element.date %> </p>
+            </li>
+            <% } else { %>
+            <li style="background-color: #E8A0BF;margin-left: 8%;">
+                <h1>"<%= element.mess %>"</h1>
+                <p>by <%= element.nme %> on <%= element.date %></p>
+            </li>
+            <% } %>
+
+    <% }) %>
+</ul>
+</body>
+</html>

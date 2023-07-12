@@ -1,0 +1,268 @@
+body{
+   background-color: white;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+}
+.h1{
+    display: inline;
+    float: left;
+    width: 40%;
+    margin-left:5%;
+    font-family: cursive;
+}
+.h2{
+    display: inline;
+    float: left;
+    width: 50%;
+    margin-left: 5;
+    margin-top: 2%;
+}
+.h2  h3{
+    margin-left: 45%;
+}
+.h2 ul li{
+    padding: 4px;
+}
+.home img{
+    display: inline;
+    float: right;
+    width: 30%;
+    margin-right: 5%;
+}
+.home txt{
+    display: inline;
+    float: left;
+    width: 55%;
+    margin-left: 10%;
+}
+.h2 button{
+    background-color:  gray;
+    border: 0;
+    margin-right: 4%;
+}
+.h2 button:hover{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.disp{
+    width: 100%;
+    border: 2px black  solid;
+}
+.disp td{
+    padding: 5px;
+}
+.up{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.up input,.up button{
+    margin-top: 7px;
+}
+.h2 li{
+    display: inline;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 50px;
+    padding:2px;
+    border: 2px sold black;
+}
+.h2 a{
+    text-decoration: none;
+    color: black;
+}
+.iview{
+    margin-left: 29%;
+    margin-top: 7%;
+    border: 2px solid black;
+}
+.iview thead{
+    background-color: #97DEFF;
+}
+.iview td{
+    border: 2px solid black;
+    padding: 7px;
+}
+.mess h1{
+    text-align: center;
+}
+.mess{
+    margin-left: 35%;
+    background-color: #97DEFF;
+    width: 25%;
+    padding: 5px;
+    margin-top: 7%;
+    border-radius: 20px;
+}
+.mess input,.mess button,.mess textarea{
+    width: 80%;
+    padding: 5px;
+    margin-left: 10%;
+}
+
+#wel{
+    width: 700px;
+    background-color: #97DEFF;
+    border-radius: 30px;
+    padding: 1%;
+    text-align: center;
+    margin-left: 3%;
+}
+#text1{
+    height: 40px;
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.intro{
+    width: 100%;
+    height: 500px;
+    margin-top: 3%;
+}
+.first ,.second{
+    width: 100%;
+    height: 225px;
+    margin-top: 25px;
+}
+.one,.two,.three{
+    width: 30%;
+    margin-left: 3%;
+    background-color: #97DEFF;
+    padding: 2px;
+    border-radius: 10px;
+    display: inline;
+    float: left;
+    height: 225px;
+}
+.one img,.two img,.three img{
+    height:120px ;
+    margin-left: 23%;
+    margin-top: 3%;
+    width: 190px;
+    border-radius: 100px;
+}
+.mark{
+    background-color:#97DEFF;
+    width: 40%;
+    height: 200px;
+    margin-left: 28%;
+    margin-top: 10%;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+.mark input,.mark button{
+    width: 80%;margin-left: 10%;
+    margin-top: 5%;
+    padding: 5px;
+}
+.smark{
+    width: 40%;
+    margin-top: 10%;
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 29%
+}
+.smark td{
+    border: 2px solid black;
+    padding: 3%;
+}
+.smark thead{
+    background-color: #97DEFF;
+}
+.inbox{
+    background-color: #97DEFF;
+    width: 40%;
+    height: 200px;
+    margin-left: 32%;
+    margin-top: 10%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.inbox input,.inbox button,.umark input,.umark button,.view input,.view button,.imark input,.imark button{
+    width: 80%;
+    margin-left: 10%;
+    padding: 7px;
+    margin-top: 40px;
+}
+/*  */
+.mark button:hover,.inbox button:hover,.umark button:hover,.view button:hover{
+    background-color: #97DEFF;
+    font-weight: bold;
+}
+.message{
+    list-style: none;
+}
+.message li{
+    width: 80%;
+    margin-left: 7%;
+    background-color: #97DEFF;
+    border: 2px solid black;
+    height: 100%;
+    padding: 1%;
+    border-radius: 30px ;
+    margin-top: 30px;
+}
+.umark{
+    width: 45%;
+    margin-left: 25%;
+    height: 400px;
+    background-color: #97DEFF;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+.table{
+    width: 45%;
+    margin-left: 5%;
+    height: 400px;
+    display: inline;
+    float: left;
+    margin-top: 5%;
+}
+.table thead{
+    background-color: #97DEFF;
+}
+.fill{
+    width: 30%;
+    margin-right: 5%;
+    height: 400px;
+    margin-left: 5%;
+    display: inline;
+    background-color: rgb(240, 248, 255,0.4);
+    float: right;
+    border: 2px solid white;
+    background-color: #97DEFF;
+    border-radius: 40px;
+    margin-top: 5%;
+}
+.fill input,.fill button{
+    width: 80%;
+    margin-left: 4%;
+    padding: 4px;
+}
+.view,.imark{
+    background-color: #97DEFF;
+    width: 40%;
+    margin-left: 27%;
+    height: 340px;
+    border-radius: 20px;
+    margin-top: 7%;
+}
+.vstaff{
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 29%;
+    border: 2px solid black;
+}
+.vstaff thead{
+    background-color: #97DEFF;
+}
+.vstaff td{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}

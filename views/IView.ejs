@@ -1,0 +1,35 @@
+<%- include('partial/theader'); -%>
+<table class="iview">
+    <thead>
+        <td>
+            Roll NO
+        </td>
+        <td>
+            Name
+        </td>
+        <td>
+            section
+        </td>
+        <td>
+            Password
+        </td>
+        <td>
+            Mobile No
+        </td>
+        <td>
+            Year of join
+        </td>
+    </thead>
+    <%  emp.forEach(element => { %>
+        <tr>
+            <td><%= element.nme %></td>
+            <td><%= element.snme %></td>
+            <td><%= element.sec %></td>
+            <td><%= element.pss %></td>
+            <td><%= element.mno %></td>
+            <td><%= element.yjoin %></td>
+        </tr>
+    <% }) %>
+
+</table>
+    

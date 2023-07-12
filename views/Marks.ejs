@@ -1,0 +1,47 @@
+<%- include('partial/header'); -%>
+<table class="smark">
+    <thead>
+        <td>Exam Type</td>
+        <td>CI</td>
+        <td>BD</td>
+        <td>OOAD</td>
+        <td>CG</td>
+        <td>ST</td>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Model I</td>
+            <td><%= emp.I.s1 %></td>
+            <td><%= emp.I.s2 %></td>
+            <td><%= emp.I.s3 %></td>
+            <td><%= emp.I.s4 %></td>
+            <td><%= emp.I.s5 %></td>
+        </tr>
+        <tr>
+            <td>Model II</td>
+            <td><%= emp.II.s1 %></td>
+            <td><%= emp.II.s2 %></td>
+            <td><%= emp.II.s3 %></td>
+            <td><%= emp.II.s4 %></td>
+            <td><%= emp.II.s5 %></td>
+        </tr>
+        <tr>
+            <td>Model III</td>
+            <td><%= emp.III.s1 %></td>
+            <td><%= emp.III.s2 %></td>
+            <td><%= emp.III.s3 %></td>
+            <td><%= emp.III.s4 %></td>
+            <td><%= emp.III.s5 %></td>
+        </tr>
+        <tr>
+            <td>Internal Mark</td>
+            <td><%= parseInt((parseInt(emp.I.s1)+parseInt(emp.II.s1)+parseInt(emp.III.s1))/15) %></td>
+            <td><%= parseInt((parseInt(emp.I.s2)+parseInt(emp.II.s2)+parseInt(emp.III.s2))/15) %></td>
+            <td><%= parseInt((parseInt(emp.I.s3)+parseInt(emp.II.s3)+parseInt(emp.III.s3))/15) %></td>
+            <td><%= parseInt((parseInt(emp.I.s4)+parseInt(emp.II.s4)+parseInt(emp.III.s4))/15) %></td>
+            <td><%= parseInt((parseInt(emp.I.s5)+parseInt(emp.II.s5)+parseInt(emp.III.s5))/15) %></td>
+        </tr>
+    </tbody>
+
+</table>
+

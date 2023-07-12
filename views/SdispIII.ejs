@@ -1,0 +1,36 @@
+<%- include('partial/UpdateMarks'); -%>
+        <%  emp.forEach(element => { %>
+            <tr>
+                <td><%= element.nme %></td>
+                <td><%= element.snme %></td>
+                <td><%= element.III.s1 %></td>
+                <td><%= element.III.s2 %></td>
+                <td><%= element.III.s3 %></td>
+                <td><%= element.III.s4 %></td>
+                <td><%= element.III.s5 %></td>
+            </tr>
+        <% }) %>
+    </tbody>
+</table>
+</div>
+<div class="fill">
+  <section class="up">
+    <form action="SdispIII" method="post">
+      <input type="text" name="nme" placeholder="Enter roll no" autocomplete="off">
+      <br>
+      <input type="number" min="0" max="100" name="s1" placeholder="Mark 1">
+      <br>
+      <input type="number" min="0" max="100" name="s2" placeholder="Mark 2">
+      <br>
+      <input type="number" min="0" max="100" name="s3" placeholder=" Mark 3">
+      <br>
+      <input type="number" min="0" max="100" name="s4" placeholder="Mark 4">
+      <br>
+      <input type="number" min="0" max="100" name="s5" placeholder="Mark 5">
+      <br>
+      <button>Update</button>
+    </form>
+  </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<%- include('partial/tadmin'); -%>
+    <table class="vstaff">
+        <thead>
+            <td>id</td>
+            <td>password</td>
+            <td>Mobile No</td>
+            <td>Deptartment</td>
+            <td>Year of Joining</td>
+        </thead>
+        <tbody>
+            <%  emp.forEach(element => { %>
+                <tr>
+                    <td><%= element.nme %></td>
+                    <td><%= element.pss %></td>
+                    <td><%= element.mno %></td>
+                    <td><%= element.dept %></td>
+                    <td><%= element.yjoin%></td>
+                </tr>
+            <% }) %>
+        </tbody>
+    </table>
+</body>
+</html>

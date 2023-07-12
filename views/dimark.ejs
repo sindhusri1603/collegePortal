@@ -1,0 +1,20 @@
+<%- include('partial/UpdateMarks'); -%>
+<form action="download">
+    <!-- <button>Download</button> -->
+</form>
+<%  emp.forEach(element => { %>
+
+    <tr>
+        <td><%= element.nme %></td>
+        <td><%= element.snme %></td>
+        <td><%= parseInt((parseInt(element.I.s1)+parseInt(element.II.s1)+parseInt(element.III.s1))/15) %></td>
+        <td><%= parseInt((parseInt(element.I.s2)+parseInt(element.II.s2)+parseInt(element.III.s2))/15) %></td>
+        <td><%= parseInt((parseInt(element.I.s3)+parseInt(element.II.s3)+parseInt(element.III.s3))/15) %></td>
+        <td><%= parseInt((parseInt(element.I.s4)+parseInt(element.II.s4)+parseInt(element.III.s4))/15) %></td>
+        <td><%= parseInt((parseInt(element.I.s5)+parseInt(element.II.s5)+parseInt(element.III.s5))/15) %></td>
+    </tr>
+<% }) %>
+</tbody>
+</table>
+</div>
+</html>
